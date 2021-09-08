@@ -29,6 +29,10 @@ int main()
       for (char c = 'A'; c < 'D'; c++)
 	print_char_11x16(c);
       break;
+    case 'a':
+      puts("You selected arror");
+      print_arrow();
+      break;
     case 'q':
       puts("Bye!");
       goto done; 		/* terminate */
